@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C551345E398DCE0A6C93627DF02A30 /* ENSwiftSideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 596F0D3B927A51565C2AFA67DA344E10 /* ENSwiftSideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0737EAE0635C4CC448C1F009346DEF7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		558F6FE54767FBC5D5E7A4986C0DDD6A /* Pods-20-SlideMenu-Tekrar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C68CCCBE646837067FDF107DBD23EB /* Pods-20-SlideMenu-Tekrar-dummy.m */; };
+		85037AD2B6D70BCA244BD65C24DB4558 /* Pods-20-SlideMenu-Tekrar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F79C0DADB636368492A4EE7801F8995 /* Pods-20-SlideMenu-Tekrar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A46BBEC19FD176BA582FADFBD1FBD9BC /* ENSwiftSideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D6C9AD707493E7317176DFA3FA25B5 /* ENSwiftSideMenu-dummy.m */; };
+		C57700C5A0788AC6EEA493A2C71812CA /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B51D415369CEBA5AF60A01BC980A81 /* ENSideMenuNavigationController.swift */; };
+		EF31337E0A00CD050E80B7464A423D8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F9AFF436FBFBCB43A12D6364967242B4 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472FAE830D5E2CB0768E4D25C3B4AC1D /* ENSideMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D220FBF88F3093DB23FCDC6E41AD77ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B3B6089D1D4373991ECB4F0672354C;
+			remoteInfo = ENSwiftSideMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F79C0DADB636368492A4EE7801F8995 /* Pods-20-SlideMenu-Tekrar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-20-SlideMenu-Tekrar-umbrella.h"; sourceTree = "<group>"; };
+		17EAA456A2DEB50B7EA77F4AD68C60DF /* ENSwiftSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ENSwiftSideMenu.framework; path = ENSwiftSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B51D415369CEBA5AF60A01BC980A81 /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ENSideMenuNavigationController.swift; path = Library/ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		23FFB9535638890538C72C85CDE8411C /* Pods-20-SlideMenu-Tekrar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-20-SlideMenu-Tekrar-acknowledgements.plist"; sourceTree = "<group>"; };
+		28D46C7CF5028F0159E9F233BDDDC274 /* Pods-20-SlideMenu-Tekrar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-20-SlideMenu-Tekrar-frameworks.sh"; sourceTree = "<group>"; };
+		2FD9052F69DA1A86635E434D418851FD /* ENSwiftSideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ENSwiftSideMenu-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39C62D20579653BFA6B67B82F9B31F6E /* ENSwiftSideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ENSwiftSideMenu.debug.xcconfig; sourceTree = "<group>"; };
+		3E64D6B52C18FA2E5BDD2CCC0BBF49EA /* Pods-20-SlideMenu-Tekrar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-20-SlideMenu-Tekrar-Info.plist"; sourceTree = "<group>"; };
+		46C1D9662E55422B9EA7F51DC87B72A9 /* Pods-20-SlideMenu-Tekrar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-20-SlideMenu-Tekrar.debug.xcconfig"; sourceTree = "<group>"; };
+		472FAE830D5E2CB0768E4D25C3B4AC1D /* ENSideMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ENSideMenu.swift; path = Library/ENSideMenu.swift; sourceTree = "<group>"; };
+		52C9DBB88AC413126AADF3C9FDF46A48 /* Pods-20-SlideMenu-Tekrar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-20-SlideMenu-Tekrar.release.xcconfig"; sourceTree = "<group>"; };
+		596F0D3B927A51565C2AFA67DA344E10 /* ENSwiftSideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ENSwiftSideMenu-umbrella.h"; sourceTree = "<group>"; };
+		65D6C9AD707493E7317176DFA3FA25B5 /* ENSwiftSideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ENSwiftSideMenu-dummy.m"; sourceTree = "<group>"; };
+		775D81E466E370AFE4E56F4FC9159715 /* ENSwiftSideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ENSwiftSideMenu.modulemap; sourceTree = "<group>"; };
+		86CBC6BAB935FE28048FFAF9107E8643 /* Pods_20_SlideMenu_Tekrar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_20_SlideMenu_Tekrar.framework; path = "Pods-20-SlideMenu-Tekrar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E800BB1B0601608D57673A64F404DCE /* ENSwiftSideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ENSwiftSideMenu.release.xcconfig; sourceTree = "<group>"; };
+		B6DE7D1A5789D7B995A526919A7D0A8F /* Pods-20-SlideMenu-Tekrar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-20-SlideMenu-Tekrar.modulemap"; sourceTree = "<group>"; };
+		B990858ACD7E1FE99AE2C0DEDBFB267A /* Pods-20-SlideMenu-Tekrar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-20-SlideMenu-Tekrar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5C68CCCBE646837067FDF107DBD23EB /* Pods-20-SlideMenu-Tekrar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-20-SlideMenu-Tekrar-dummy.m"; sourceTree = "<group>"; };
+		F327904B86457CC2B520E220E3801422 /* ENSwiftSideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ENSwiftSideMenu-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4422D61BE24A1000721B45AFE4400586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0737EAE0635C4CC448C1F009346DEF7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F94F003375E6ADEC59FEADFCACCA51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF31337E0A00CD050E80B7464A423D8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B2DB250BD580CACD312FC484BF5844A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17EAA456A2DEB50B7EA77F4AD68C60DF /* ENSwiftSideMenu.framework */,
+				86CBC6BAB935FE28048FFAF9107E8643 /* Pods_20_SlideMenu_Tekrar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26D0EC66AD43E66981E8E6A2CF96DCAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D4AE77DC2A094062908B2B16C10780D /* ENSwiftSideMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2A0005FFDA431ED87FC59A0929075B61 /* Pods-20-SlideMenu-Tekrar */ = {
+			isa = PBXGroup;
+			children = (
+				B6DE7D1A5789D7B995A526919A7D0A8F /* Pods-20-SlideMenu-Tekrar.modulemap */,
+				B990858ACD7E1FE99AE2C0DEDBFB267A /* Pods-20-SlideMenu-Tekrar-acknowledgements.markdown */,
+				23FFB9535638890538C72C85CDE8411C /* Pods-20-SlideMenu-Tekrar-acknowledgements.plist */,
+				C5C68CCCBE646837067FDF107DBD23EB /* Pods-20-SlideMenu-Tekrar-dummy.m */,
+				28D46C7CF5028F0159E9F233BDDDC274 /* Pods-20-SlideMenu-Tekrar-frameworks.sh */,
+				3E64D6B52C18FA2E5BDD2CCC0BBF49EA /* Pods-20-SlideMenu-Tekrar-Info.plist */,
+				0F79C0DADB636368492A4EE7801F8995 /* Pods-20-SlideMenu-Tekrar-umbrella.h */,
+				46C1D9662E55422B9EA7F51DC87B72A9 /* Pods-20-SlideMenu-Tekrar.debug.xcconfig */,
+				52C9DBB88AC413126AADF3C9FDF46A48 /* Pods-20-SlideMenu-Tekrar.release.xcconfig */,
+			);
+			name = "Pods-20-SlideMenu-Tekrar";
+			path = "Target Support Files/Pods-20-SlideMenu-Tekrar";
+			sourceTree = "<group>";
+		};
+		5D4AE77DC2A094062908B2B16C10780D /* ENSwiftSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				472FAE830D5E2CB0768E4D25C3B4AC1D /* ENSideMenu.swift */,
+				19B51D415369CEBA5AF60A01BC980A81 /* ENSideMenuNavigationController.swift */,
+				5D8A768A29A12010B76E9C024611256A /* Support Files */,
+			);
+			name = ENSwiftSideMenu;
+			path = ENSwiftSideMenu;
+			sourceTree = "<group>";
+		};
+		5D8A768A29A12010B76E9C024611256A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				775D81E466E370AFE4E56F4FC9159715 /* ENSwiftSideMenu.modulemap */,
+				65D6C9AD707493E7317176DFA3FA25B5 /* ENSwiftSideMenu-dummy.m */,
+				2FD9052F69DA1A86635E434D418851FD /* ENSwiftSideMenu-Info.plist */,
+				F327904B86457CC2B520E220E3801422 /* ENSwiftSideMenu-prefix.pch */,
+				596F0D3B927A51565C2AFA67DA344E10 /* ENSwiftSideMenu-umbrella.h */,
+				39C62D20579653BFA6B67B82F9B31F6E /* ENSwiftSideMenu.debug.xcconfig */,
+				9E800BB1B0601608D57673A64F404DCE /* ENSwiftSideMenu.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ENSwiftSideMenu";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4F64B9A0612549BF5419EB98A8908ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A0005FFDA431ED87FC59A0929075B61 /* Pods-20-SlideMenu-Tekrar */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				26D0EC66AD43E66981E8E6A2CF96DCAC /* Pods */,
+				1B2DB250BD580CACD312FC484BF5844A /* Products */,
+				C4F64B9A0612549BF5419EB98A8908ED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16E6E8FF7568D32C01DAFA703B7F8BA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85037AD2B6D70BCA244BD65C24DB4558 /* Pods-20-SlideMenu-Tekrar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF239C409504DFDA79263D7F8CACFEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C551345E398DCE0A6C93627DF02A30 /* ENSwiftSideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		350F5956B4F3B8A374A0C0D91BE7FF85 /* Pods-20-SlideMenu-Tekrar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCC04559CDE22169144396A7FE9D3F7 /* Build configuration list for PBXNativeTarget "Pods-20-SlideMenu-Tekrar" */;
+			buildPhases = (
+				16E6E8FF7568D32C01DAFA703B7F8BA4 /* Headers */,
+				616F2822799D608AE92FC59550AECBBD /* Sources */,
+				9F94F003375E6ADEC59FEADFCACCA51D /* Frameworks */,
+				CBD1FA8E38C0E71E03E99D1316B0BBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38FBAA8C1A40BA12BA304E16605F8DD /* PBXTargetDependency */,
+			);
+			name = "Pods-20-SlideMenu-Tekrar";
+			productName = "Pods-20-SlideMenu-Tekrar";
+			productReference = 86CBC6BAB935FE28048FFAF9107E8643 /* Pods_20_SlideMenu_Tekrar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82B3B6089D1D4373991ECB4F0672354C /* ENSwiftSideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A423548946D161CC7306596FF4FDE4 /* Build configuration list for PBXNativeTarget "ENSwiftSideMenu" */;
+			buildPhases = (
+				4AF239C409504DFDA79263D7F8CACFEF /* Headers */,
+				EBF5CBDB1C2BF06B5DE6F98CA62359AF /* Sources */,
+				4422D61BE24A1000721B45AFE4400586 /* Frameworks */,
+				57979E10384F96B5E2896890BBEE85CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ENSwiftSideMenu;
+			productName = ENSwiftSideMenu;
+			productReference = 17EAA456A2DEB50B7EA77F4AD68C60DF /* ENSwiftSideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1B2DB250BD580CACD312FC484BF5844A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82B3B6089D1D4373991ECB4F0672354C /* ENSwiftSideMenu */,
+				350F5956B4F3B8A374A0C0D91BE7FF85 /* Pods-20-SlideMenu-Tekrar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57979E10384F96B5E2896890BBEE85CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD1FA8E38C0E71E03E99D1316B0BBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		616F2822799D608AE92FC59550AECBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558F6FE54767FBC5D5E7A4986C0DDD6A /* Pods-20-SlideMenu-Tekrar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF5CBDB1C2BF06B5DE6F98CA62359AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AFF436FBFBCB43A12D6364967242B4 /* ENSideMenu.swift in Sources */,
+				C57700C5A0788AC6EEA493A2C71812CA /* ENSideMenuNavigationController.swift in Sources */,
+				A46BBEC19FD176BA582FADFBD1FBD9BC /* ENSwiftSideMenu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D38FBAA8C1A40BA12BA304E16605F8DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ENSwiftSideMenu;
+			target = 82B3B6089D1D4373991ECB4F0672354C /* ENSwiftSideMenu */;
+			targetProxy = D220FBF88F3093DB23FCDC6E41AD77ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		121A1A9925879FB898B5E91B87AC0F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C62D20579653BFA6B67B82F9B31F6E /* ENSwiftSideMenu.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ENSwiftSideMenu/ENSwiftSideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ENSwiftSideMenu/ENSwiftSideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ENSwiftSideMenu/ENSwiftSideMenu.modulemap";
+				PRODUCT_MODULE_NAME = ENSwiftSideMenu;
+				PRODUCT_NAME = ENSwiftSideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1407F78FDF22B69D84A110FFBE627814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E800BB1B0601608D57673A64F404DCE /* ENSwiftSideMenu.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ENSwiftSideMenu/ENSwiftSideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ENSwiftSideMenu/ENSwiftSideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ENSwiftSideMenu/ENSwiftSideMenu.modulemap";
+				PRODUCT_MODULE_NAME = ENSwiftSideMenu;
+				PRODUCT_NAME = ENSwiftSideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B090206DC17A64CF434C36D400BC001F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C1D9662E55422B9EA7F51DC87B72A9 /* Pods-20-SlideMenu-Tekrar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-20-SlideMenu-Tekrar/Pods-20-SlideMenu-Tekrar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-20-SlideMenu-Tekrar/Pods-20-SlideMenu-Tekrar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EEE38A370315FDB360F6C7E0374D8C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C9DBB88AC413126AADF3C9FDF46A48 /* Pods-20-SlideMenu-Tekrar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-20-SlideMenu-Tekrar/Pods-20-SlideMenu-Tekrar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-20-SlideMenu-Tekrar/Pods-20-SlideMenu-Tekrar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05A423548946D161CC7306596FF4FDE4 /* Build configuration list for PBXNativeTarget "ENSwiftSideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121A1A9925879FB898B5E91B87AC0F9F /* Debug */,
+				1407F78FDF22B69D84A110FFBE627814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCC04559CDE22169144396A7FE9D3F7 /* Build configuration list for PBXNativeTarget "Pods-20-SlideMenu-Tekrar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B090206DC17A64CF434C36D400BC001F /* Debug */,
+				EEE38A370315FDB360F6C7E0374D8C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

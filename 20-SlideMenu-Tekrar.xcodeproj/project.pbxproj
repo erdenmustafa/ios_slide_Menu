@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30279BDD25405B6E000864FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279BDC25405B6E000864FF /* AppDelegate.swift */; };
+		30279BDF25405B6E000864FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279BDE25405B6E000864FF /* SceneDelegate.swift */; };
+		30279BE425405B6E000864FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30279BE225405B6E000864FF /* Main.storyboard */; };
+		30279BE625405B70000864FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30279BE525405B70000864FF /* Assets.xcassets */; };
+		30279BE925405B70000864FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30279BE725405B70000864FF /* LaunchScreen.storyboard */; };
+		30279BFE25407675000864FF /* LaunchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30279BF925407675000864FF /* LaunchView.xib */; };
+		30279BFF25407675000864FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279BFA25407675000864FF /* ViewController.swift */; };
+		30279C0025407675000864FF /* MyMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279BFB25407675000864FF /* MyMenuTableViewController.swift */; };
+		30279C0125407675000864FF /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279BFC25407675000864FF /* MyNavigationController.swift */; };
+		30279C0225407675000864FF /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30279BFD25407675000864FF /* ViewController2.swift */; };
+		C2CB060F1965319C06B99776 /* Pods_20_SlideMenu_Tekrar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6382ACFE7FFEE359C01F54 /* Pods_20_SlideMenu_Tekrar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30279BD925405B6E000864FF /* 20-SlideMenu-Tekrar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20-SlideMenu-Tekrar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30279BDC25405B6E000864FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30279BDE25405B6E000864FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30279BE325405B6E000864FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30279BE525405B70000864FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30279BE825405B70000864FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30279BEA25405B70000864FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30279BF925407675000864FF /* LaunchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchView.xib; sourceTree = "<group>"; };
+		30279BFA25407675000864FF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30279BFB25407675000864FF /* MyMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMenuTableViewController.swift; sourceTree = "<group>"; };
+		30279BFC25407675000864FF /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
+		30279BFD25407675000864FF /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		82DE46BB3AA995B2B92BA79C /* Pods-20-SlideMenu-Tekrar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20-SlideMenu-Tekrar.release.xcconfig"; path = "Target Support Files/Pods-20-SlideMenu-Tekrar/Pods-20-SlideMenu-Tekrar.release.xcconfig"; sourceTree = "<group>"; };
+		CD6382ACFE7FFEE359C01F54 /* Pods_20_SlideMenu_Tekrar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20_SlideMenu_Tekrar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCD485B5E3AEE844B11E977 /* Pods-20-SlideMenu-Tekrar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20-SlideMenu-Tekrar.debug.xcconfig"; path = "Target Support Files/Pods-20-SlideMenu-Tekrar/Pods-20-SlideMenu-Tekrar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30279BD625405B6E000864FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CB060F1965319C06B99776 /* Pods_20_SlideMenu_Tekrar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CA5E52CC437ED8C8CAB9CB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDCD485B5E3AEE844B11E977 /* Pods-20-SlideMenu-Tekrar.debug.xcconfig */,
+				82DE46BB3AA995B2B92BA79C /* Pods-20-SlideMenu-Tekrar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		30279BD025405B6E000864FF = {
+			isa = PBXGroup;
+			children = (
+				30279BDB25405B6E000864FF /* 20-SlideMenu-Tekrar */,
+				30279BDA25405B6E000864FF /* Products */,
+				0CA5E52CC437ED8C8CAB9CB6 /* Pods */,
+				77590D632A325729DEFE8489 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30279BDA25405B6E000864FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30279BD925405B6E000864FF /* 20-SlideMenu-Tekrar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30279BDB25405B6E000864FF /* 20-SlideMenu-Tekrar */ = {
+			isa = PBXGroup;
+			children = (
+				30279BDC25405B6E000864FF /* AppDelegate.swift */,
+				30279BDE25405B6E000864FF /* SceneDelegate.swift */,
+				30279BFB25407675000864FF /* MyMenuTableViewController.swift */,
+				30279BFC25407675000864FF /* MyNavigationController.swift */,
+				30279BFA25407675000864FF /* ViewController.swift */,
+				30279BFD25407675000864FF /* ViewController2.swift */,
+				30279BE225405B6E000864FF /* Main.storyboard */,
+				30279BE525405B70000864FF /* Assets.xcassets */,
+				30279BF925407675000864FF /* LaunchView.xib */,
+				30279BE725405B70000864FF /* LaunchScreen.storyboard */,
+				30279BEA25405B70000864FF /* Info.plist */,
+			);
+			path = "20-SlideMenu-Tekrar";
+			sourceTree = "<group>";
+		};
+		77590D632A325729DEFE8489 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6382ACFE7FFEE359C01F54 /* Pods_20_SlideMenu_Tekrar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30279BD825405B6E000864FF /* 20-SlideMenu-Tekrar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30279BED25405B70000864FF /* Build configuration list for PBXNativeTarget "20-SlideMenu-Tekrar" */;
+			buildPhases = (
+				C80D4CA1398FCBA4D8D95549 /* [CP] Check Pods Manifest.lock */,
+				30279BD525405B6E000864FF /* Sources */,
+				30279BD625405B6E000864FF /* Frameworks */,
+				30279BD725405B6E000864FF /* Resources */,
+				80F075AC6CA71BADF7694B27 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20-SlideMenu-Tekrar";
+			productName = "20-SlideMenu-Tekrar";
+			productReference = 30279BD925405B6E000864FF /* 20-SlideMenu-Tekrar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30279BD125405B6E000864FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					30279BD825405B6E000864FF = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 30279BD425405B6E000864FF /* Build configuration list for PBXProject "20-SlideMenu-Tekrar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30279BD025405B6E000864FF;
+			productRefGroup = 30279BDA25405B6E000864FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30279BD825405B6E000864FF /* 20-SlideMenu-Tekrar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30279BD725405B6E000864FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30279BE925405B70000864FF /* LaunchScreen.storyboard in Resources */,
+				30279BFE25407675000864FF /* LaunchView.xib in Resources */,
+				30279BE625405B70000864FF /* Assets.xcassets in Resources */,
+				30279BE425405B6E000864FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80F075AC6CA71BADF7694B27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20-SlideMenu-Tekrar/Pods-20-SlideMenu-Tekrar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20-SlideMenu-Tekrar/Pods-20-SlideMenu-Tekrar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-20-SlideMenu-Tekrar/Pods-20-SlideMenu-Tekrar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C80D4CA1398FCBA4D8D95549 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-20-SlideMenu-Tekrar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30279BD525405B6E000864FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30279C0025407675000864FF /* MyMenuTableViewController.swift in Sources */,
+				30279BFF25407675000864FF /* ViewController.swift in Sources */,
+				30279BDD25405B6E000864FF /* AppDelegate.swift in Sources */,
+				30279C0125407675000864FF /* MyNavigationController.swift in Sources */,
+				30279BDF25405B6E000864FF /* SceneDelegate.swift in Sources */,
+				30279C0225407675000864FF /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30279BE225405B6E000864FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30279BE325405B6E000864FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30279BE725405B70000864FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30279BE825405B70000864FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30279BEB25405B70000864FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30279BEC25405B70000864FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30279BEE25405B70000864FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDCD485B5E3AEE844B11E977 /* Pods-20-SlideMenu-Tekrar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PQZU59D85;
+				INFOPLIST_FILE = "20-SlideMenu-Tekrar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafa.-0-SlideMenu-Tekrar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30279BEF25405B70000864FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82DE46BB3AA995B2B92BA79C /* Pods-20-SlideMenu-Tekrar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PQZU59D85;
+				INFOPLIST_FILE = "20-SlideMenu-Tekrar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mustafa.-0-SlideMenu-Tekrar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30279BD425405B6E000864FF /* Build configuration list for PBXProject "20-SlideMenu-Tekrar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30279BEB25405B70000864FF /* Debug */,
+				30279BEC25405B70000864FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30279BED25405B70000864FF /* Build configuration list for PBXNativeTarget "20-SlideMenu-Tekrar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30279BEE25405B70000864FF /* Debug */,
+				30279BEF25405B70000864FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30279BD125405B6E000864FF /* Project object */;
+}

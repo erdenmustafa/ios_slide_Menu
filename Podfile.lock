@@ -1,0 +1,16 @@
+PODS:
+  - ENSwiftSideMenu (0.1.4)
+
+DEPENDENCIES:
+  - ENSwiftSideMenu
+
+SPEC REPOS:
+  trunk:
+    - ENSwiftSideMenu
+
+SPEC CHECKSUMS:
+  ENSwiftSideMenu: 21e755dae28f09bbf453aa83b3d05f2e5f92ca39
+
+PODFILE CHECKSUM: 71b4fc7755e0132f7ba2d3397a9188a6964ea011
+
+COCOAPODS: 1.9.3
